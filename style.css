@@ -238,3 +238,17 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+/* Background image */
+.bg-img {
+  width: 100%;
+  max-width: 380px;   /* background ko thoda chhota kar diya */
+  border-radius: 12px;
+}
+
+/* Foreground phone image */
+.phone-img {
+  width: 95%;         /* mobile ko aur bada kar diya */
+  max-width: 400px;   /* maximum size increase */
+  box-shadow: 0 8px 18px rgba(0,0,0,0.35);
+  z-index: 2;         /* ensure phone image upar rahe */
+}
