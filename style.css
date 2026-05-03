@@ -34,3 +34,12 @@ body {
   background-color: var(--secondary-color);
   border: none;
 }
+#about h2 {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
