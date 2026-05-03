@@ -135,3 +135,106 @@ body {
   max-width: 280px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
+/* HERO SECTION */
+#hero {
+  background-color: #fff8e1; /* light yellow background */
+}
+
+#hero h1 {
+  font-size: 2.8rem;       /* heading size */
+  font-weight: 700;
+  color: #222;             /* dark text */
+}
+
+#hero p {
+  font-size: 1.2rem;
+  color: #555;             /* softer gray */
+  line-height: 1.6;
+}
+
+#hero .btn-primary {
+  background-color: #007bff;   /* blue button */
+  border-radius: 30px;
+  padding: 12px 28px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+#hero .btn-success {
+  background-color: #28a745;   /* green button */
+  border-radius: 30px;
+  padding: 12px 28px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* IMAGE OVERLAY */
+.bg-img {
+  width: 100%;
+  max-width: 420px;   /* background thoda chhota */
+  border-radius: 12px;
+}
+
+.phone-img {
+  width: 85%;         /* front mobile bada */
+  max-width: 340px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+/* ABOUT SECTION */
+#about h2 {
+  font-size: 2rem;
+  color: #222;
+}
+
+#about p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+#about .btn-primary {
+  background-color: #007bff;
+  border-radius: 25px;
+  padding: 10px 22px;
+}
+
+/* TESTIMONIALS */
+#testimonials {
+  background: linear-gradient(135deg, #ffeb99, #ffcc66);
+}
+
+#testimonials h2 {
+  font-size: 2rem;
+  color: #222;
+}
+
+#testimonials .card {
+  border-radius: 12px;
+}
+
+/* COMPANY SECTION */
+#company h2 {
+  font-size: 2rem;
+  color: #222;
+}
+
+#company p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* FOOTER */
+footer {
+  background-color: #222;
+  color: #eee;
+}
+
+footer a {
+  color: #eee;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
