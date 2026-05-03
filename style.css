@@ -124,3 +124,14 @@ body {
   max-width: 250px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
+.bg-img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+}
+
+.phone-img {
+  width: 65%;
+  max-width: 280px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
