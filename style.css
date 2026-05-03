@@ -83,3 +83,22 @@ body {
 #testimonials img:hover {
   filter: grayscale(0%);
 }
+#company h2 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+}
+
+#company p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+#company .btn-warning {
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+#company .btn-light {
+  border-radius: 30px;
+  font-weight: 500;
+}
