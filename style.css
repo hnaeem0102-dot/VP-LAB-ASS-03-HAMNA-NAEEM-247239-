@@ -241,6 +241,12 @@ body {
   color: #1e88e5;
   padding: 12px 28px;
 }
+#company h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #1e88e5; /* same blue */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
 
 
 /* SECURITY SECTION */
