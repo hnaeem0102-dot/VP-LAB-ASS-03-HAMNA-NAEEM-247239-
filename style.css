@@ -292,8 +292,8 @@ body {
   border-radius: 50%;
   padding: 15px;
   background-color: #e3f2fd; /* light blue background same as design */
+  background-color: #e3f2fd; /* force apply */
 }
-
 
 .feature {
   text-align: center;
