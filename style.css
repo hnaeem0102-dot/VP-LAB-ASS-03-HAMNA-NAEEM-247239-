@@ -621,7 +621,7 @@ footer a:hover {
 .newsletter-box .btn {
   border-radius: 8px;
 }
-.custom-nav {
+ .custom-nav {
   background-color: #1e88e5; /* blue background */
   text-align: center;
   border-radius: 12px;
@@ -631,18 +631,13 @@ footer a:hover {
 .custom-nav h2 {
   font-size: 32px;
   font-weight: bold;
-  color: #fff;
-}
-
-.custom-nav .nav-links {
-  margin: 0;
-  padding: 0;
+  color: #fff; /* white heading */
 }
 
 .custom-nav .nav-links li {
   list-style: none;
   margin: 10px 0;
-  border-bottom: 1px solid #ffeb3b; /* yellow line */
+  border-bottom: 1px solid #fff; /* white line */
   padding-bottom: 8px;
 }
 
