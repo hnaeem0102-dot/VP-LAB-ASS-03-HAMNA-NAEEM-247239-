@@ -45,6 +45,15 @@ body {
   opacity: 0.15;
   z-index: 0;
 }
+.bg-img {
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(30,136,229,0.4);
+  transition: transform 0.3s ease;
+}
+.bg-img:hover {
+  transform: scale(1.05);
+}
+
 
 
 #hero h1 {
