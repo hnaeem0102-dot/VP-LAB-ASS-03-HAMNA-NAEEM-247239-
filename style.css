@@ -794,6 +794,13 @@ footer a:hover {
   padding: 10px 25px;
   font-weight: bold;
 }
+section {
+  background-color: #fffde7; /* same light yellow */
+  border-radius: 12px;
+  margin-bottom: 40px;
+  padding: 40px 20px;
+}
+
 .footer-extra {
   background-color: #1e88e5; /* same blue background */
   color: #fff;
