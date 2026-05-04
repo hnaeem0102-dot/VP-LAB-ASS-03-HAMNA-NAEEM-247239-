@@ -621,3 +621,42 @@ footer a:hover {
 .newsletter-box .btn {
   border-radius: 8px;
 }
+.custom-nav {
+  background-color: #1e88e5; /* blue background */
+  text-align: center;
+  border-radius: 12px;
+  padding: 40px 20px;
+}
+
+.custom-nav h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.custom-nav .nav-links {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-nav .nav-links li {
+  list-style: none;
+  margin: 10px 0;
+  border-bottom: 1px solid #ffeb3b; /* yellow line */
+  padding-bottom: 8px;
+}
+
+.custom-nav .nav-links li:last-child {
+  border-bottom: none;
+}
+
+.custom-nav .nav-links a {
+  color: #ffeb3b; /* yellow text */
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.custom-nav .nav-links a:hover {
+  text-decoration: underline;
+}
