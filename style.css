@@ -421,3 +421,82 @@ footer a:hover {
 .btn:hover {
   opacity: 0.85;
 }
+.security-section {
+  background-color: #fff8e1; /* light yellow background */
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.security-section h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.feature {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.feature img {
+  width: 60px;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* center icon */
+}
+
+.feature h3 {
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn.ios {
+  background-color: #ffeb3b; /* yellow filled */
+  border: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.btn.android {
+  background-color: transparent;
+  border: 2px solid #333;
+  color: #333;
+  font-weight: bold;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
