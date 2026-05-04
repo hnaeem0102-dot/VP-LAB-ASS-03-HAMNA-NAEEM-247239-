@@ -164,6 +164,13 @@ body {
 #testimonials .card:hover {
   transform: translateY(-5px);
 }
+
+#testimonials .card {
+  background-color: #ffffff; /* white card */
+  border-radius: 15px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
 #testimonials h2 {
   font-size: 2.2rem;
   font-weight: 700;
