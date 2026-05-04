@@ -269,7 +269,7 @@ footer a:hover {
   transform: translate(-50%, -50%); /* center alignment */
 }
 .security-section {
-  background-color: #f9f9f9;
+  background-color: #fff8e1; /* light yellow background */
   padding: 60px 20px;
   text-align: center;
   font-family: 'Arial', sans-serif;
@@ -286,6 +286,18 @@ footer a:hover {
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin-bottom: 40px;
+}
+
+.feature {
+  background-color: #ffffff;
+  border-radius: 12px; /* rounded rectangle */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* light shadow */
+  transition: transform 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-5px); /* hover effect */
 }
 
 .feature img {
