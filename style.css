@@ -268,3 +268,68 @@ footer a:hover {
   z-index: 2;          /* phone image upar rahe */
   transform: translate(-50%, -50%); /* center alignment */
 }
+.security-section {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.security-section h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.feature img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn.ios {
+  background-color: #007aff;
+  color: #fff;
+}
+
+.btn.android {
+  background-color: #3ddc84;
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
