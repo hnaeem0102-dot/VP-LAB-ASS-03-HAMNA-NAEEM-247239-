@@ -247,6 +247,11 @@ body {
   color: #1e88e5; /* same blue */
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
+#company p {
+  font-size: 1.2rem;
+  color: #444;
+  line-height: 1.9;
+}
 
 
 /* SECURITY SECTION */
