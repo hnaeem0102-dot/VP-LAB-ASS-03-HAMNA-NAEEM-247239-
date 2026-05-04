@@ -213,6 +213,10 @@ body {
   border-radius: 30px;
   font-weight: 500;
 }
+#company .btn-warning:hover {
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+  transform: translateY(-3px);
+}
 
 #company h2 {
   font-size: 2.2rem;
