@@ -218,7 +218,12 @@ body {
 .latest-insights {
   background-color: #ffffff;
   padding: 60px 20px;
+  color: #1e88e5;
+  border-bottom: 3px solid #ffeb3b;
+  display: inline-block;
+  padding-bottom: 8px;
 }
+
 
 .insight-card {
   background: #fff;
