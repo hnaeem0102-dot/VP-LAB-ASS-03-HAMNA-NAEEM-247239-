@@ -523,3 +523,77 @@ footer a:hover {
   padding: 10px 22px;
   font-weight: bold;
 }
+/* STORY + HELP SECTION */
+.story-help-section {
+  background-color: #fff8e1; /* light yellow background */
+  padding: 60px 20px;
+}
+
+.story-card {
+  background: linear-gradient(135deg, #ff9800, #ffeb3b); /* orange → yellow gradient */
+  border-radius: 20px;
+  padding: 40px;
+  color: #222;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.story-card h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.story-card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.blue-btn {
+  background-color: #1976d2; /* blue button */
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 22px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blue-btn:hover {
+  opacity: 0.85;
+}
+
+/* HELP CARD */
+.help-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.help-card h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0d47a1; /* dark blue heading */
+  margin-bottom: 15px;
+}
+
+.help-card p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.outline-btn {
+  background-color: transparent;
+  border: 2px solid #0d47a1; /* dark blue border */
+  color: #0d47a1;
+  border-radius: 8px;
+  padding: 10px 22px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.outline-btn:hover {
+  background-color: #0d47a1;
+  color: #fff;
+}
