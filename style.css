@@ -214,6 +214,35 @@ body {
   font-weight: 500;
 }
 
+#company h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1e88e5;   /* blue heading */
+}
+
+#company p {
+  font-size: 1.2rem;
+  color: #444;
+  line-height: 1.8;
+}
+
+#company .btn-warning {
+  background-color: #ffeb3b; /* yellow button */
+  color: #000;
+  border-radius: 30px;
+  padding: 12px 28px;
+  font-weight: 600;
+}
+
+#company .btn-light {
+  border-radius: 30px;
+  font-weight: 600;
+  border: 2px solid #1e88e5;
+  color: #1e88e5;
+  padding: 12px 28px;
+}
+
+
 /* SECURITY SECTION */
 .security-section {
   background-color: #fff8e1;
