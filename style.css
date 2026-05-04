@@ -386,7 +386,7 @@ footer a:hover {
 .story-card h3 {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 15px;   /* ✅ fixed: margin property completed */
+  margin-bottom: 15px;  
 }
 
 .story-card p {
@@ -564,4 +564,60 @@ footer a:hover {
   border-radius: 25px;
   padding: 10px 25px;
   font-weight: bold;
+}
+.footer-extra {
+  background-color: #1e88e5; /* same blue background */
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  padding: 40px 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  margin-top: 30px;
+}
+
+.footer-extra h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-extra p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.footer-extra .form-control {
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+.footer-extra .btn-warning {
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+.newsletter-section {
+  background-color: #1e88e5; /* blue background */
+  color: #fff;
+}
+
+.newsletter-box {
+  background-color: #ffeb3b; /* yellow box */
+  border-radius: 12px;
+  color: #000;
+}
+
+.newsletter-box h5 {
+  font-size: 18px;
+}
+
+.newsletter-box p {
+  font-size: 14px;
+  color: #333;
+}
+
+.newsletter-box .form-control {
+  border-radius: 8px;
+}
+
+.newsletter-box .btn {
+  border-radius: 8px;
 }
