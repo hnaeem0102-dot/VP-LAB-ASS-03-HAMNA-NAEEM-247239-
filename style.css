@@ -41,6 +41,12 @@ body {
   text-align: left;
 }
 
+#hero {
+  background: linear-gradient(135deg, #ffeb99, #ffcc66); /* soft yellow gradient */
+  padding: 80px 0;
+  text-align: left;
+}
+
 #hero h1 {
   font-size: 2.8rem;
   font-weight: 700;
