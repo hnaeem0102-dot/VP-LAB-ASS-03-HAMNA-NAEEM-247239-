@@ -167,6 +167,10 @@ body {
   padding: 6px 12px;
   border-radius: 8px;
   display: inline-block;
+  background-color: #faf292;
+  padding: 6px 12px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(255,235,59,0.6);
 }
 
 /* COMPANY SECTION */
