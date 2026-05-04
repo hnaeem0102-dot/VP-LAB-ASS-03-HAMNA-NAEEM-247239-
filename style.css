@@ -160,6 +160,28 @@ body {
 #testimonials .card:hover {
   transform: translateY(-5px);
 }
+#testimonials h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1e88e5;   /* blue heading */
+}
+
+#testimonials .card {
+  border-radius: 15px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#testimonials .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+#testimonials h6 {
+  color: #1e88e5;   /* reviewer name blue */
+  font-weight: 600;
+}
+
 
 /* COMPANY SECTION */
 #company h2 {
