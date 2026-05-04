@@ -81,6 +81,11 @@ body {
   opacity: 0.15; /* light overlay */
   z-index: 0;
 }
+#hero {
+  background: linear-gradient(135deg, #fffde7, #ffffff); /* soft yellow to white */
+  padding: 80px 0;
+  text-align: left;
+}
 
 
 .bg-img {
