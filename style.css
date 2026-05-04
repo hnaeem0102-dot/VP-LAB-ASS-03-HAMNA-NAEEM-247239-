@@ -655,3 +655,34 @@ footer a:hover {
 .custom-nav .nav-links a:hover {
   text-decoration: underline;
 }
+.image-footer {
+  background-color: #1e88e5; /* blue background */
+}
+
+.image-footer img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.image-footer {
+  background-color: #1e88e5; /* blue background */
+}
+
+.image-footer img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.footer-image {
+  margin: 0;
+  padding: 0;
+}
+
+.full-width-img {
+  width: 100%;       /* full website width */
+  height: 100vh;     /* full viewport height (screen length) */
+  object-fit: cover; /* image crop/fit properly */
+  display: block;
+}
