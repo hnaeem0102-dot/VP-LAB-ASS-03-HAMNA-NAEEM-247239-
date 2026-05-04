@@ -524,3 +524,44 @@ footer a:hover {
   padding: 10px 25px;
 }
 
+.latest-insights {
+  background-color: #ffffff; /* white background */
+  padding: 60px 20px;
+}
+
+.insight-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: left;
+  height: 100%; /* ensures equal height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.insight-card img {
+  width: 100%;
+  height: 200px; /* fixed height for equal size */
+  object-fit: cover; /* crop/fit image properly */
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.insight-card h5 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.insight-card p {
+  font-size: 14px;
+  color: #555;
+  flex-grow: 1; /* makes text area flexible */
+}
+
+.latest-insights .btn-warning {
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-weight: bold;
+}
