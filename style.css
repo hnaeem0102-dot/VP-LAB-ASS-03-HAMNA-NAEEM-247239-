@@ -1,3 +1,4 @@
+
 :root {
   --primary-color: #007aff;
   --secondary-color: #34a853;
@@ -18,7 +19,7 @@ body {
 
 /* HERO SECTION */
 #hero {
-  background-color: #fff8e1; /* light yellow background */
+  background-color: #fff8e1;
   padding: 80px 0;
   text-align: left;
 }
@@ -122,7 +123,7 @@ body {
 
 /* SECURITY SECTION */
 .security-section {
-  background-color: #fff8e1; /* light yellow background */
+  background-color: #fff8e1;
   padding: 60px 20px;
   text-align: center;
   font-family: 'Arial', sans-serif;
@@ -137,13 +138,13 @@ body {
 
 .features-box {
   background-color: #ffffff;
-  border-radius: 20px; /* rounded rectangle container */
+  border-radius: 20px;
   padding: 40px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  margin: 0 auto 40px auto; /* center the box */
+  margin: 0 auto 40px auto;
   max-width: 1100px;
 }
 
@@ -190,13 +191,13 @@ body {
 }
 
 .btn.ios {
-  background-color: #ffeb3b; /* yellow filled */
+  background-color: #ffeb3b;
   border: none;
   color: #000;
 }
 
 .btn.android {
-  background-color: #ffffff; /* white button */
+  background-color: #ffffff;
   border: 2px solid #333;
   color: #333;
 }
@@ -219,6 +220,7 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
 /* INFO CARDS */
 .info-section {
   padding: 60px 20px;
@@ -232,7 +234,7 @@ footer a:hover {
 }
 
 .yellow-card {
-  background-color: #fff8e1; /* light yellow */
+  background-color: #fff8e1;
 }
 
 .white-card {
@@ -252,7 +254,7 @@ footer a:hover {
 }
 
 .purple-btn {
-  background-color: #6a1b9a; /* purple */
+  background-color: #6a1b9a;
   color: #fff;
   border-radius: 8px;
   padding: 10px 20px;
@@ -266,7 +268,7 @@ footer a:hover {
 
 /* BLUE PROMO SECTION */
 .promo-section {
-  background-color: #1e88e5; /* blue background */
+  background-color: #1e88e5;
   color: #fff;
   text-align: center;
   padding: 60px 20px;
@@ -290,14 +292,14 @@ footer a:hover {
 }
 
 .promo-section .btn.ios {
-  background-color: #ffeb3b; /* yellow */
+  background-color: #ffeb3b;
   color: #000;
   border: none;
   font-weight: bold;
 }
 
 .promo-section .btn.android {
-  background-color: #6a1b9a; /* purple */
+  background-color: #6a1b9a;
   color: #fff;
   border: none;
   font-weight: bold;
@@ -314,55 +316,10 @@ footer a:hover {
 .promo-section .btn:hover {
   opacity: 0.85;
 }
-/* INFO + PROMO SECTION */
-.info-promo-section {
-  padding: 60px 20px;
-}
-
-.info-card {
-  border-radius: 20px;
-  padding: 30px;
-  text-align: left;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  margin-bottom: 30px;
-}
-
-.yellow-card {
-  background-color: #fff8e1; /* light yellow */
-}
-
-.white-card {
-  background-color: #ffffff;
-}
-
-.info-card h3 {
-  font-size: 22px;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-.info-card p {
-  font-size: 15px;
-  color: #555;
-  margin-bottom: 20px;
-}
-
-.purple-btn {
-  background-color: #6a1b9a; /* purple */
-  color: #fff;
-  border-radius: 8px;
-  padding: 10px 20px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.purple-btn:hover {
-  opacity: 0.85;
-}
 
 /* BLUE PROMO BLOCK */
 .promo-block {
-  background-color: #1e88e5; /* blue background */
+  background-color: #1e88e5;
   color: #fff;
   text-align: center;
   border-radius: 20px;
@@ -388,14 +345,14 @@ footer a:hover {
 }
 
 .promo-block .btn.ios {
-  background-color: #ffeb3b; /* yellow */
+  background-color: #ffeb3b;
   color: #000;
   border: none;
   font-weight: bold;
 }
 
 .promo-block .btn.android {
-  background-color: #6a1b9a; /* purple */
+  background-color: #6a1b9a;
   color: #fff;
   border: none;
   font-weight: bold;
@@ -412,89 +369,30 @@ footer a:hover {
 .promo-block .btn:hover {
   opacity: 0.85;
 }
+
 /* STORY + HELP SECTION */
 .story-help-section {
+  background-color: #fff8e1;
   padding: 60px 20px;
 }
 
 .story-card {
-  background: linear-gradient(135deg, #ff9800, #ffeb3b); /* orange → yellow gradient */
+  background: linear-gradient(135deg, #ff9800, #ffeb3b);
   border-radius: 20px;
   padding: 40px;
   color: #222;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
-
 .story-card h3 {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 15px;   /* ✅ fixed: margin property completed */
 }
 
 .story-card p {
   font-size: 16px;
   margin-bottom: 20px;
   color: #333;
-}
-
-.blue-btn {
-  background-color: #1976d2; /* blue button */
-  color: #fff;
-  border-radius: 8px;
-  padding: 10px 22px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.blue-btn:hover {
-  opacity: 0.85;
-}
-
-/* HELP CARD */
-.help-card {
-  background-color: #ffffff;
-  border-radius: 20px;
-  padding: 40px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-.help-card h3 {
-  font-size: 24px;
-  font-weight: bold;
-  color: #0d47a1; /* dark blue heading */
-  margin-bottom: 15px;
-}
-
-.help-card p {
-  font-size: 16px;
-  color: #555;
-  margin-bottom: 20px;
-}
-
-.outline-btn {
-  background-color: transparent;
-  border: 2px solid #0d47a1; /* dark blue border */
-  color: #0d47a1;
-  border-radius: 8px;
-  padding: 10px 22px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.outline-btn:hover {
-  background-color: #0d47a1;
-  color: #fff;
-}
-.story-help-section {
-  background-color: #fff8e1; /* light yellow background */
-  padding: 60px 20px;
-}
-
-.story-card {
-  background-color: #fff8e1;
-  border-radius: 20px;
-  padding: 40px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .blue-btn {
@@ -502,58 +400,6 @@ footer a:hover {
   color: #fff;
   border-radius: 8px;
   padding: 10px 22px;
-  font-weight: bold;
-}
-
-.help-card {
-  background-color: #ffffff;
-  border-radius: 20px;
-  padding: 40px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-.help-card h3 {
-  color: #0d47a1;
-}
-
-.outline-btn {
-  border: 2px solid #0d47a1;
-  color: #0d47a1;
-  border-radius: 8px;
-  padding: 10px 22px;
-  font-weight: bold;
-}
-/* STORY + HELP SECTION */
-.story-help-section {
-  background-color: #fff8e1; /* light yellow background */
-  padding: 60px 20px;
-}
-
-.story-card {
-  background: linear-gradient(135deg, #ff9800, #ffeb3b); /* orange → yellow gradient */
-  border-radius: 20px;
-  padding: 40px;
-  color: #222;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-.story-card h3 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-.story-card p {
-  font-size: 16px;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-.blue-btn {
-  background-color: #1976d2; /* blue button */
-  color: #fff;
-  border-radius: 8px;
-  padding: 10px 22px;
   text-decoration: none;
   font-weight: bold;
 }
@@ -585,7 +431,7 @@ footer a:hover {
 
 .outline-btn {
   background-color: transparent;
-  border: 2px solid #0d47a1; /* dark blue border */
+  border: 2px solid #0d47a1;
   color: #0d47a1;
   border-radius: 8px;
   padding: 10px 22px;
@@ -596,4 +442,57 @@ footer a:hover {
 .outline-btn:hover {
   background-color: #0d47a1;
   color: #fff;
+}
+/* EXTRA PROMO SECTION (same as promo-block) */
+.extra-promo {
+  background-color: #1e88e5; /* same blue background */
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  padding: 40px 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  margin-top: 30px; /* spacing from above block */
+}
+
+.extra-promo h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.extra-promo p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.extra-promo .download-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.extra-promo .btn.ios {
+  background-color: #ffeb3b; /* yellow */
+  color: #000;
+  border: none;
+  font-weight: bold;
+}
+
+.extra-promo .btn.android {
+  background-color: #6a1b9a; /* purple */
+  color: #fff;
+  border: none;
+  font-weight: bold;
+}
+
+.extra-promo .btn {
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.extra-promo .btn:hover {
+  opacity: 0.85;
 }
