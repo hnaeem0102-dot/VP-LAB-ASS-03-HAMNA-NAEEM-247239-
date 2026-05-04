@@ -14,6 +14,11 @@ body {
   color: #333;
   font-family: 'Segoe UI', Arial, sans-serif;
 }
+body {
+  background-color: #fffde7 !important; /* light yellow same as Figma */
+  font-family: var(--font-family);
+  color: var(--text-color);
+}
 
 }
 
