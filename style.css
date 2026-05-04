@@ -181,6 +181,20 @@ body {
   color: #1e88e5;   /* reviewer name blue */
   font-weight: 600;
 }
+/* TESTIMONIALS */
+#testimonials {
+  background: linear-gradient(135deg, #ffeb99, #ffcc66);
+  padding: 60px 0;
+}
+
+#testimonials h2 {
+  font-size: 2rem;
+  color: #222;
+}
+
+#testimonials .card {
+  border-radius: 12px;
+}
 
 
 /* COMPANY SECTION */
